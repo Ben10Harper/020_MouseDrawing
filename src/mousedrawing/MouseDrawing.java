@@ -202,7 +202,7 @@ public class MouseDrawing extends JFrame
         gridConstraints.insets = new Insets(10,5,10,10);
         getContentPane().add(rightColorLabel, gridConstraints);
         
-        colorPanel.setPreferredSize(new Dimension(80,360));
+        colorPanel.setPreferredSize(new Dimension(80,320));
         colorPanel.setBorder(BorderFactory.createTitledBorder("Colors"));
         gridConstraints = new GridBagConstraints();
         gridConstraints.gridx = 1;
